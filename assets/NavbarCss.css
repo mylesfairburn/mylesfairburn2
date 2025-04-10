@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #0E253E;
+    background-color: #0E253E;
+}
+
+li {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a:not(.Logo) {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.Logo) {
+    background-color: white;
+    color: black;
+}
+
+img.Logo {
+    margin-top: 5px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.Placeholder {
+    float: left;
+    margin-left: 10%;
+    margin-top: 80px;
+
+}
+select.selectDog{
+    margin-top: 13px;
+    margin-left: 3px;
+    background-color: white;
+    width: 100%;
+    border-color: #0E253E;
+    border-radius: 10px;
+    text-align: center;
+}
